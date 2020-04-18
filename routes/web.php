@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','LeaderBoardController@index');
+Route::post('/top_ten_users','LeaderBoardController@topTenUsers')->name('to_ten');

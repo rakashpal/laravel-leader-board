@@ -1,0 +1,30 @@
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    select#category {
+        width: 300px;
+        font-size: 18px;
+      
+        margin:auto ;
+        margin-bottom: 22px;
+    }
+    label{
+        display:block;
+        font-size: 18px;
+    }
+    .wraper {
+        text-align: center;
+    }
