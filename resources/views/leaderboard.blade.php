@@ -10,6 +10,7 @@
 <body>
     @if($categories->isNotEmpty())
     <div class="wraper">
+        <h2>Top 10 Quiz Players</h2>
     <label for="cars">Categories</label>
     <select id="category">
         <option value="" >Select Category</option>
